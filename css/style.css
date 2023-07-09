@@ -100,8 +100,7 @@
   font-size: 20px;
   margin: 10px 0;
 }
-.order-list{
-
+.order-list {
 }
 .author {
   display: flex;
@@ -127,11 +126,11 @@
   background-color: #808080;
   margin-left: 20px;
 }
-.first-box{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-   margin-bottom: 10px;
+.first-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .box {
   width: 250px;
@@ -148,19 +147,57 @@
 }
 /* Service Styles Ends */
 /* Contact Styles Starts */
-.contact-section{
-    background-color: rgba(255, 6, 6, 0.726);
-    padding: 30px;
-    width: 80%;
-    margin: auto;
-    color: #000000;
-    margin-top: -40px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.contact-section {
+  background-color: rgba(255, 6, 6, 0.726);
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+  color: #000000;
+  margin-top: -40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.contact-btn{
-    background-color: #808080;
+.contact-btn {
+  background-color: #808080;
 }
 /* Contact Styles Ends */
+/* Blog Styles starts */
+.blog-container {
+  background-color: #808080;
+  width: 90%;
+  margin: auto;
+}
+.blog-title {
+  font-size: 4rem;
+  color: #000000;
+  font-weight: bold;
+  padding: 40px 0;
+  text-align: center;
+}
+.title-color {
+  color: red;
+}
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.card {
+  width: 250px;
+  height: auto;
+  border-radius: 7px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.card-text,
+h3,
+p {
+  padding: 10px;
+}
+/* Blog Styles Ends */
