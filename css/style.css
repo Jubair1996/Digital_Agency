@@ -168,6 +168,7 @@
   background-color: #808080;
   width: 90%;
   margin: auto;
+  margin-bottom: 30px;
 }
 .blog-title {
   font-size: 4rem;
@@ -208,6 +209,7 @@ footer {
   color: white;
   padding: 150px 150px 20px 150px;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .footer-container {
   display: flex;
