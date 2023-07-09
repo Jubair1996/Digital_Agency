@@ -1,0 +1,32 @@
+/* Reset Styles Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar Styles Starts */
+.nav-container {
+  background-color: #808080;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menus ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-menus ul li {
+  list-style: none;
+}
+.nav-menus ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.nav-menus ul li a:hover {
+  color: #ff0000;
+}
+/* Navbar Styles Ends */
