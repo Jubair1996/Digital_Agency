@@ -48,26 +48,102 @@
   font-size: 4rem;
   color: #ffffff;
 }
-.banner-text .digital{
-    color: #ff0000;
+.banner-text .digital {
+  color: #ff0000;
 }
-.banner-text p{
-    color: #ffffff;
-    font-size: 16px;
-    margin: 10px 0;
+.banner-text p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 10px 0;
 }
-.discover-btn{
-    padding: 15px 25px;
-    border: none;
-    background-color: red;
-    color: #ffffff;
-    margin-top: 10px;
-    margin-right: 10px;
+.discover-btn {
+  padding: 15px 25px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-.hire-btn{
-    padding: 15px 25px;
-    border: none;
-    background-color: #fcefef;
-    color: #000000;
+.hire-btn,
+.btn {
+  padding: 15px 25px;
+  border: none;
+  background-color: #fcefef;
+  color: #000000;
 }
 /* Banner Styles Ends */
+/* Service Styles Starts */
+.service-container {
+  height: 100vh;
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #ffffff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background-color: #ff0000;
+  color: #fcefef;
+  border-radius: 20px;
+}
+.service-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.service-description {
+  width: 50%;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.order-list{
+    
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  border-right: 3px solid red;
+}
+.author-container {
+  display: flex;
+  align-items: center;
+}
+.author img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.author h5 {
+  margin-right: 40px;
+}
+.contact-btn {
+  margin-top: 10px;
+  background-color: #808080;
+  margin-left: 20px;
+}
+.first-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   margin-bottom: 10px;
+}
+.box {
+  width: 250px;
+  height: 200px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+/* Service Styles Ends */
